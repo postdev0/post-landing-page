@@ -1,0 +1,209 @@
+.firstContainer {
+    background-color: #FFFFFF;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:60px 231px; 
+  }
+  
+  .content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:194px;
+    width: 1013px;
+    
+  }
+  
+  h1 {
+   
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 32px;
+  }
+
+  .heading-md{
+    display: none; 
+  }
+  
+  button {
+    content: "Get the App";
+    background-color: #6E4FB3;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+ color:white;
+    width:161px;
+height: 46px;
+padding: 8px, 24px, 8px, 24px;
+border-radius: 24px;
+gap: 8px;
+
+  }
+
+  .button-sm{
+    display:block
+  }
+  
+  .hidden-md {
+    display: none;
+  }
+  
+  .visible-lg {
+    display: block;
+    width:730px
+  }
+
+
+  @media (max-width: 1441px) {
+    .firstContainer {
+      padding:121px 70px;
+      flex-direction: row;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .button-sm{
+      display:block
+    }
+    
+    .visible-lg {
+      display: none; 
+    }
+    
+    .hidden-md {
+      display: block; 
+      width: 730px;
+    }
+    
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 29px;
+   letter-spacing: 0px;
+   text-align: left;
+   
+    }
+
+    .heading-md{
+      display: block; 
+    }
+
+    .content {
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+   
+      
+    }
+
+    button {
+      background-color: #6E4FB3;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: 0;
+      text-align: center;
+   color:white;
+   padding: 8px, 24px, 8px, 24px;
+   border-radius: 24px;
+   gap: 8px;
+   content: "Download Now";
+   width:"191px";
+   Height:"46px"
+   
+  
+    }
+  }
+
+  @media (max-width: 360px) {
+    .firstContainer {
+      background-color: #FFFFFF;
+      text-align: center; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding:19px 16px; 
+    }
+    
+    .content {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 28px;
+      margin-top: 56px;
+      margin-bottom: 0px;
+      justify-content: center;
+      width: 328px;
+      height: 84px;
+
+      
+    }
+    
+    h1 {     
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: 0px;
+      text-align: center;   
+    }
+  
+    .heading-md{
+      display: none; 
+    }
+
+    .button-sm{
+      display:none
+    }
+    
+    button {
+      display: block;
+      content: "Get the App";
+      background-color: #6E4FB3;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      letter-spacing: 0px;
+      text-align: center;      
+      text-align: center;
+      color:white;
+      width:132px;
+  height: 37px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 24px;
+  gap: 8px;
+  
+    }
+    
+    .hidden-md {
+      display: none;
+    }
+    
+    .visible-lg {
+      display: block;
+    
+    }
+  }

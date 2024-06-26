@@ -1,0 +1,550 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+
+.second-container {
+    margin-top: 60px;
+    background-color: #FFFFFF;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-bottom: 88px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .card-wrapper {
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+
+    padding: 0px;
+    display: flex;
+    border-radius: 0px 24px 24px 0px;
+    margin-top: 159px;
+  }
+
+  .card-content {
+    background-color: #F1EBFF;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 146px 105px 146px 84px;
+  }
+  
+  .card-content-end {
+    background-color: #F1EBFF;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 146px 105px 146px 84px;
+  }
+
+  .card-image {
+    width: 50%;
+    padding: 0px;
+  }
+
+  .card-wrapper-sm {
+ 
+    display: none;
+  
+  }
+
+  .card-text {
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: flex-start;
+    align-items: flex-start;
+  }
+
+  .card-text-secondary {
+    color: #6E4FB3;
+  }
+
+
+  .footer {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 24px;
+    display:block
+  }
+
+  .footer-sm-box{
+    display:none;
+ 
+  }
+
+  .footer-sm{
+    display:flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  .footer-md {
+ 
+    display:none
+  }
+  
+  .footer-links {
+    width: 433px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 33px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .footer-links a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .social-media {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media div {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  .social-media span {
+    color: gray;
+  }
+  
+  .copyright {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .copyright img {
+    width: 13px;
+    height: 13px;
+  }
+  
+  .post {
+    margin-left: 8px;
+    color: #6E4FB3;
+  }
+  .box-container {
+    display: flex;
+    height: 353px;
+    margin-top: 88px;
+    border-bottom: 1px solid #000; 
+  }
+  
+  .card:last-child .card-content {
+    padding: 55px 0px; 
+  }
+  
+  .card h2 {
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: flex-start;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+  
+  .card p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: flex-start;
+    margin-bottom: 0;
+  }
+  
+  .card button {
+    width: 308.66px;
+    height: 67.44px;
+    margin-top: 32px;
+    padding: 16px 32px; /* Adjust as needed */
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    border: none;
+  }
+  
+  .card button img {
+    margin-right: 8px; /* Adjust as needed */
+  }
+  .card-content.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%; 
+  }
+  
+  .card-content.centered p {
+    margin-bottom: 24px; 
+  }
+
+
+  
+  .card-content.centered .card-button {
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 44px;
+    background-color: #121212;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+  }
+  
+  .card-content.centered .card-button img {
+    margin-right: 8px;
+  }
+
+  .card-content-last {
+    background-color: #F1EBFF;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: flex-start;
+    padding: 52px 0px 
+  
+  }
+
+
+
+  @media (max-width: 1441px) {
+   
+    .footer-sm-box{
+      display:none;
+    }
+
+
+    .footer {  
+      display:none
+    }
+
+    .footer-md {
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 24px;
+      display:block
+    }
+    .copyright {
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+  @media (max-width: 360px) {
+
+    .second-container {
+      margin-top: 56px;
+      background-color: #FFFFFF;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+
+
+    .card-wrapper {
+      display: none; 
+    }
+
+
+    .card-wrapper-sm {
+      padding: 0px 0px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card h2 {
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;
+      align-items: flex-start;
+      margin-bottom: 0;
+    }
+
+
+  
+    .footer-md {
+  
+      display:none
+    }
+    
+    .card {
+      background-color: #ECECEC;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 24px, 24px, 0px, 0px;
+      margin-top: 32px;
+    }
+
+    .card-content {
+      background-color: #F1EBFF;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding:109px 27px 109px 27px ;
+    }
+
+    .card-content-end {
+      background-color: #F1EBFF;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding:109px 27px 109px 27px ;
+    }
+  
+
+    .heading {
+      padding-bottom:32px ;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19px;
+      letter-spacing: 0px;
+      text-align: center;  
+    }
+
+    .card-text {
+  
+      font-family: Inter;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;      
+    }
+  
+    .card-text-secondary {
+      color: #6E4FB3;
+    }
+
+    .card-image {
+      width: 100%;
+      padding: 0px;
+    }
+
+    .card-content-last {
+      background-color: #F1EBFF;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;     
+      padding: 0px 16px ;
+    
+    }
+
+    .card h3 {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19px;
+      letter-spacing: 0px;
+      text-align: left;
+      
+    }
+
+    .card p {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0px;
+      text-align: left;     
+    }
+
+    .card button {
+      width:223px; 
+      height:40px;
+      padding: 8px 16px; 
+      gap: 2px;
+      border-radius: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #121212;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: center;      
+      color: white;
+      border: none;
+      margin-bottom: 16px;
+    }
+
+    .card-content.centered .card-button {
+      display: flex;
+      align-items: center;
+      border-radius: 44px;
+      background-color: #121212;
+  
+      color: white;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: center;
+      
+    }
+    
+    .card-content.centered .card-button img {
+      margin-right: 0px;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 24px;
+      display:none;
+
+    }
+
+    .footer-sm-box{
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+      background-color: #f9f9f9;
+      padding: 24px;
+    }
+   
+    .footer-sm{
+      display:flex;
+      flex-direction: row;   
+      justify-content: space-between; 
+    }
+
+    .social-media,
+.footer-links {
+  width: 50%;
+}
+  
+    .social-media {
+      display: flex;
+      flex-direction: column;
+      justify-content:  flex-start;
+      align-items:  flex-start;
+      width: 50%;
+      gap: 18px;
+      margin: 0 auto;
+    }
+
+    .footer-links { 
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 50%;
+      gap: 28px;
+      margin:4px;
+     
+    }
+    .social-media span {
+      color: gray;
+      font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: center;
+
+    }
+
+    .footer-links a {
+      color: inherit;
+      text-decoration: none;
+      font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0px;
+text-align: center;
+
+    }
+
+    .copyright span {
+      font-family: Inter;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0px;
+      text-align: center;
+      
+    }
+    
+
+  }
